@@ -1,5 +1,24 @@
 Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
 
+Starting the App
+----------------
+
+#### TL;DR
+
+```
+bundle install && cd app && yarn && yarn start
+```
+
+```
+rails db:migrate
+```
+
+returns
+
+```
+PG::ConnectionBad: FATAL:  database "oneidea_development" does not exist
+```
+
 Highlights
 ----------
 
@@ -20,10 +39,7 @@ STRUCTURE
   ▾ javascript/
     ▾ bundles/HelloWorld/
       ▸ actions/
-      ▾ components/
-          HelloWorld.jsx
-          IdeaBox.jsx
-          IdeaBoxHeader.jsx
+      ▸ components/
       ▸ constants/
       ▸ containers/
       ▸ reducers/
